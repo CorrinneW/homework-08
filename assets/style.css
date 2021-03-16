@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    display: inline-block;
+    word-wrap:break-word;
+}
+
+img{
+    max-width: 100%;
+    height: auto;    
+}
+
+#aboutImg{
+    display: flex;
+    justify-content: flex-end;
+}
