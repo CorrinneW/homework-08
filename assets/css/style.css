@@ -12,13 +12,18 @@
     --dark-accent: #8A533F;
     --dark-shade: #2A2B2F;
 
+    /*sitewide fonts*/
+    --display-font: 'Staatliches', cursive;
+    --header-font: 'Permanent Marker', cursive;
+    --default-font: 'Montserrat', sans-serif;
+
     /*default viewport size is >600px wide. See bottom of document for media break points.*/
     font-size: 16px; 
 }
 
 /* sitewide fonts and sizes*/
 p {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: var(--default-font);
     font-size: 1rem;
     display: inline-block;
     word-wrap:break-word;
@@ -30,28 +35,50 @@ a {
 }
 
 h1 {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 2rem;
+    font-family: var(--display-font);
+    font-size: 4rem;
 }
 h2 {
-    font-family: 'Karma', Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-family: var(--header-font);
+    font-size: 2.2rem;
 }
 
 h3 {
-    font-family: 'Karma', Georgia, Times, 'Times New Roman', serif;
-    font-size: 1rem;
+    font-family: var(--default-font);
+    font-size: 2rem;
 }
 
+/*body elements*/
 body {
     width: 100%;
     background-color: var(--dark-shade);
+}
+
+.navbar {
+    background-color:var(--dark-shade);
+}
+
+.navbar-item {
+    color:var(--main-color);
+}
+
+.button-primary {
+    background: var(--main-color);
+    color: var(--light-shade);
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+}
+
+header {
+    background-color:var(--light-accent);
+    padding: 3rem 0 3rem 3rem;
 }
 
 section {
     background-image: linear-gradient(to right,#fff, var(--light-shade));
 }
 
+/*images*/
 .pure-img-responsive{
     max-width: 100%;
     height: auto;    
