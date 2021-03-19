@@ -76,12 +76,6 @@ body {
     height: auto;    
 }
 
-/*button hover state*/
-
-/* resume button attention (plays once after 30s delay)*/
-
-
-
 header {
     background-color:var(--light-accent);
     padding: 3rem 0 3rem 1.5rem;
@@ -92,6 +86,8 @@ section {
     margin: 3rem 0;
     background-image: linear-gradient(to right,#fff, var(--light-shade));
 }
+
+/*section styling*/
 
 #about {
     padding: 3rem 0 0 1.5rem;
@@ -110,11 +106,53 @@ section {
     padding: 3rem 1.5rem 3rem 1.5rem;
 }
 
-#project-imgs {
-    padding-top: 1rem
+.project-imgs {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
 }
 
 .project-img {
+    padding: .5rem;
     border: .7rem solid var(--dark-accent);
     box-shadow: .2rem 1rem 1.5rem var(--dark-shade);
+    background-color: var(--main-color);
+}
+
+.project-links{
+    margin: 2rem 0 1rem 0;
+}
+
+.link-btn {
+    margin: 0 auto;
+    color: var(--dark-shade);
+    font-family: var(--header-font);
+    font-size: 1rem;
+    background-color:var(--light-accent);
+
+}
+
+.social{
+    font-family:var(--header-font);
+    color:var(--dark-shade);
+    font-size: 1rem;
+}
+
+.social-icon {
+    padding:1rem;
+    color:var(--main-color);
+}
+
+#contact {
+    padding: 3rem;
+}
+
+#contact-text {
+    margin-bottom: 1rem;
+}
+
+#contact-text p {
+    padding-top: 1rem;
+}
+.accent-icon {
+    color:var(--light-accent);
 }
