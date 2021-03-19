@@ -71,6 +71,11 @@ body {
     font-size: 1.2rem;
 }
 
+.pure-img-responsive{
+    max-width: 100%;
+    height: auto;    
+}
+
 /*button hover state*/
 
 /* resume button attention (plays once after 30s delay)*/
@@ -84,21 +89,32 @@ header {
 
 
 section {
+    margin: 3rem 0;
     background-image: linear-gradient(to right,#fff, var(--light-shade));
 }
 
 #about {
-    margin: 3rem 0;
     padding: 3rem 0 0 1.5rem;
 }
 
-/*images*/
-.pure-img-responsive{
-    max-width: 100%;
-    height: auto;    
+#about p{
+    padding: 1rem 1.5rem 0 0;
 }
 
 #about-img{
     display: flex;
     justify-content: flex-end;
+}
+
+#projects {
+    padding: 3rem 1.5rem 3rem 1.5rem;
+}
+
+#project-imgs {
+    padding-top: 1rem
+}
+
+.project-img {
+    border: .7rem solid var(--dark-accent);
+    box-shadow: .2rem 1rem 1.5rem var(--dark-shade);
 }
