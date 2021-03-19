@@ -36,16 +36,16 @@ a {
 
 h1 {
     font-family: var(--display-font);
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 h2 {
     font-family: var(--header-font);
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 
 h3 {
     font-family: var(--default-font);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 /*body elements*/
@@ -60,6 +60,8 @@ body {
 
 .navbar-item {
     color:var(--main-color);
+    font: var(--default-font);
+    font-size: 1.2rem;
 }
 
 .button-primary {
@@ -69,13 +71,25 @@ body {
     font-size: 1.2rem;
 }
 
+/*button hover state*/
+
+/* resume button attention (plays once after 30s delay)*/
+
+
+
 header {
     background-color:var(--light-accent);
-    padding: 3rem 0 3rem 3rem;
+    padding: 3rem 0 3rem 1.5rem;
 }
+
 
 section {
     background-image: linear-gradient(to right,#fff, var(--light-shade));
+}
+
+#about {
+    margin: 3rem 0;
+    padding: 3rem 0 0 1.5rem;
 }
 
 /*images*/
