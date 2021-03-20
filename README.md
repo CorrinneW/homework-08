@@ -15,5 +15,3 @@ A simple but personalized site that is as much a part of my portfolio as the pro
 
 https://corrinnew.github.io/professional-portfolio/
 
-![Weather-Dashboard.PNG](https://github.com/CorrinneW/weather-dashboard/blob/main/assets/images/Weather-Dashboard.png)
-
