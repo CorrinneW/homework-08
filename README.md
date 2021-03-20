@@ -13,7 +13,7 @@ A landing page that showcases recent projects, provides a bio & contact informat
 
 A simple but personalized site that is as much a part of my portfolio as the projects it showcases.
 
-https://corrinnew.github.io/weather-dashboard/
+https://corrinnew.github.io/professional-portfolio/
 
 ![Weather-Dashboard.PNG](https://github.com/CorrinneW/weather-dashboard/blob/main/assets/images/Weather-Dashboard.png)
 
