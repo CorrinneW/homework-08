@@ -1,4 +1,5 @@
 *{
+    max-width: 100%;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -17,14 +18,13 @@
     --header-font: 'Permanent Marker', cursive;
     --default-font: 'Montserrat', sans-serif;
 
-    /*default viewport size is >600px wide. See bottom of document for media break points.*/
+    /*default viewport size is >768px wide. See bottom of document for media break points.*/
     font-size: 16px; 
 }
 
 /* sitewide fonts and sizes*/
 p {
     font-family: var(--default-font);
-    font-size: 1rem;
     display: inline-block;
     word-wrap:break-word;
 }
@@ -36,21 +36,18 @@ a {
 
 h1 {
     font-family: var(--display-font);
-    font-size: 2.8rem;
 }
 h2 {
     font-family: var(--header-font);
-    font-size: 1.8rem;
 }
 
 h3 {
     font-family: var(--default-font);
-    font-size: 1.5rem;
 }
 
 /*body elements*/
 body {
-    width: 100%;
+    max-width: 100%;
     background-color: var(--dark-shade);
 }
 
@@ -71,14 +68,20 @@ body {
     font-size: 1.2rem;
 }
 
-.pure-img-responsive{
+img {
     max-width: 100%;
     height: auto;    
 }
 
 header {
     background-color:var(--light-accent);
-    padding: 3rem 0 3rem 1.5rem;
+    padding-top: 4rem;
+}
+
+/*'hi my name is*/
+#intro {
+    margin: 0 0.7rem;
+    color: var(--main-color);
 }
 
 /*h1 fades in on site load*/
@@ -100,12 +103,6 @@ header h1.fadein {
     from {opacity: 0;}
     to {opacity: 1;}
 }
-  
-
-#intro {
-    margin: 0 0.7rem;
-    color: var(--main-color);
-}
 
 /*subheader slides in from the left after brief delay*/
 
@@ -116,7 +113,7 @@ header h1.fadein {
     background-color: var(--main-color);
     border-radius: 0 1rem 1rem 0;
     box-shadow: 0.2rem 0.3rem 0.5rem var(--dark-shade);
-    padding: 0.3rem 0.7rem 0.2rem 1.5rem; 
+    padding-left: 2rem; 
 }
 
 /*subheader animation control*/
@@ -138,37 +135,47 @@ header h2.slide-right {
 
 }
 
+/*animated gif*/
+#header-gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 
 section {
-    margin: 3rem 0;
+    margin: 2rem 0 2rem 0;
+    padding: 3rem 0 0rem 3rem;
     background-image: linear-gradient(to right,#fff, var(--light-shade));
 }
 
 /*section styling*/
-
-#about {
-    padding: 3rem 0 0 1.5rem;
-}
-
 #about p{
-    padding: 1rem 1.5rem 0 0;
+    margin: 1rem 1.5rem 1.5rem 0;
 }
 
 #about-img{
+    max-width:100%;
+    height: auto;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-#projects {
-    padding: 3rem 1.5rem 3rem 1.5rem;
+#project-text{
+    padding-bottom: 2rem;
+}
+
+.project-container {
+    padding-top: 2rem;
 }
 
 .project-imgs {
-    margin-top: 1.5rem;
-    padding: 1.5rem;
+    margin: 1.5rem auto 0 auto;
 }
 
 .project-img {
+    max-width: 75%;
+    margin: auto;
     padding: .5rem;
     border: .7rem solid var(--main-color);
     box-shadow: .2rem 1rem 1.5rem var(--dark-shade);
@@ -293,6 +300,7 @@ section {
 
 #contact-text {
     margin-bottom: 1rem;
+    padding-right: 2rem;
 }
 
 #contact-text p {
