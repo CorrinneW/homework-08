@@ -15,4 +15,4 @@ A simple but personalized site that is as much a part of my portfolio as the pro
 
 https://corrinnew.github.io/professional-portfolio/
 
-https://www.awesomescreenshot.com/video/3129396?key=1a2bb17aa32ab70a91df0120698dc6a5
+![screen-record.gif](https://github.com/CorrinneW/professional-portfolio/blob/main/assets/images/screen-record.gif)
